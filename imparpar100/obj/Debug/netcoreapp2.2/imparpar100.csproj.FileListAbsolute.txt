@@ -1,0 +1,11 @@
+C:\Users\48531730805\Documents\Exercicios\imparpar100\obj\Debug\netcoreapp2.2\imparpar100.csprojAssemblyReference.cache
+C:\Users\48531730805\Documents\Exercicios\imparpar100\obj\Debug\netcoreapp2.2\imparpar100.csproj.CoreCompileInputs.cache
+C:\Users\48531730805\Documents\Exercicios\imparpar100\obj\Debug\netcoreapp2.2\imparpar100.AssemblyInfoInputs.cache
+C:\Users\48531730805\Documents\Exercicios\imparpar100\obj\Debug\netcoreapp2.2\imparpar100.AssemblyInfo.cs
+C:\Users\48531730805\Documents\Exercicios\imparpar100\bin\Debug\netcoreapp2.2\imparpar100.deps.json
+C:\Users\48531730805\Documents\Exercicios\imparpar100\bin\Debug\netcoreapp2.2\imparpar100.runtimeconfig.json
+C:\Users\48531730805\Documents\Exercicios\imparpar100\bin\Debug\netcoreapp2.2\imparpar100.runtimeconfig.dev.json
+C:\Users\48531730805\Documents\Exercicios\imparpar100\bin\Debug\netcoreapp2.2\imparpar100.dll
+C:\Users\48531730805\Documents\Exercicios\imparpar100\bin\Debug\netcoreapp2.2\imparpar100.pdb
+C:\Users\48531730805\Documents\Exercicios\imparpar100\obj\Debug\netcoreapp2.2\imparpar100.dll
+C:\Users\48531730805\Documents\Exercicios\imparpar100\obj\Debug\netcoreapp2.2\imparpar100.pdb
