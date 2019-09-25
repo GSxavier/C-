@@ -10,7 +10,7 @@ namespace ParImpar
 
 
           while(num !=0){
-                 Console.WriteLine("Digite um numero:");
+                 Console.WriteLine("Digite um numero ou zero para parar:");
                   num = int.Parse(Console.ReadLine());
 
             if( num % 2 == 0){
