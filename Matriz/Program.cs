@@ -25,7 +25,7 @@ namespace Matriz
             }
                 impar = 6 -par;
                 Console.WriteLine("Numeros pares :" + par);
-                Console.WriteLine("Numeros impares: " + impar);
+                Console.WriteLine("Numeros impares: " + impar); 
             
            
             
