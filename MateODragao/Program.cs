@@ -145,11 +145,11 @@ namespace MateODragao
                    switch(opacaoBatalhaJogador)
                    {
                        case "1":
-                        Random geradorNumeroAleatorio = new Random();
-                        int numeroAleatorioJogador = geradorNumeroAleatorio.Next(0, 5);
-                        int numeroAleatorioDragao = geradorNumeroAleatorio.Next(0, 5);
-                        int guerreiroDestrezaTotal = guerreiro.Destreza +  numeroAleatorioJogador;
-                        int dragaoDestrezaTotal = dragao.Destreza + numeroAleatorioDragao;
+                         geradorNumeroAleatorio = new Random();
+                         numeroAleatorioJogador = geradorNumeroAleatorio.Next(0, 5);
+                         numeroAleatorioDragao = geradorNumeroAleatorio.Next(0, 5);
+                         guerreiroDestrezaTotal = guerreiro.Destreza +  numeroAleatorioJogador;
+                         dragaoDestrezaTotal = dragao.Destreza + numeroAleatorioDragao;
 
                         if(guerreiroDestrezaTotal > dragaoDestrezaTotal){
                             System.Console.WriteLine($"{guerreiro.Nome.ToUpper()}: Toma essa Chagas!!");
