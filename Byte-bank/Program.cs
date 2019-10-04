@@ -4,6 +4,8 @@ namespace Byte_Bank
 {
     class Program
     {
+        private const bool V = false;
+
         static void Main(string[] args)
         {
             System.Console.WriteLine("ByteBank - Cadastro de Clientes");
@@ -27,21 +29,37 @@ namespace Byte_Bank
                     System.Console.WriteLine("Senha Invalida!");
                 }
             }while(!trocouSenha);
+            
+            System.Console.WriteLine("_________________________________");
+            System.Console.WriteLine("    Dados da Conta Corrente");
+            System.Console.WriteLine("_________________________________");
+            Console.Write("Nome do Titular: ");
+            string titular = Console.ReadLine();
+            Console.Write("Numero da Agencia: ");
+            int agencia = int.Parse(Console.ReadLine());
+            Console.Write("Numero da Conta Corrente: ");
+            int numero = int.Parse(Console.ReadLine());
+            Console.Write("Saldo: ");
+            double saldo = double.Parse(Console.ReadLine());
+            
+            
+            ContaCorrente cliente2 = new ContaCorrente(numero,agencia,titular);
 
-            System.Console.WriteLine(" Digite Nome do titular");
-            string Titular = Console.ReadLine();
-            System.Console.WriteLine("Digite Numero da Agencia");
-            int Agencia = int.Parse(Console.ReadLine());
-            System.Console.WriteLine("Digite numero da conta");
-            int Numero = int.Parse(Console.ReadLine());
+            
+            do{
 
-            ContaCorrente cliente1 = new ContaCorrente( Titular,Agencia,Numero);
+           
+                
+                if(saldo > 0){
+                    System.Console.WriteLine("Sua conta foi cadastrada!");
+                } else
+                {
+                    System.Console.WriteLine("Sua conta não foi cadastrada pois seu saldo é negativo!");
+                }
+            while(saldo < 0);
+            System.Console.WriteLine();
             
-            cliente1 Saldo = Console.ReadLine();
-            
-            
-            
-
+            Cliente cliente2  = new Cliente ("aroudo","123.232.1323", "adasdas@gmail.com ");
             }
         }
     }
