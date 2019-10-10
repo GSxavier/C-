@@ -57,17 +57,14 @@ namespace TodoList
                         break;
                     case 3:
                         System.Console.WriteLine("Tchau!");
+                        SaveItem(todoList, filePath);
                         break;
                     default:
                         System.Console.WriteLine("Opção invalida");
                         Console.ReadLine();
-
                         break;
-
                 }
-
             } while (opcao != 3);
-
         }
         public static void ListaItens(List<TodoItem> todoList)
         {
@@ -81,9 +78,7 @@ namespace TodoList
                 System.Console.WriteLine($"{count,3}: {item.Titulo,-15} - {item.Nota}");
                 count++;
             }
-            
         }
-
         public static void AddItem(List<TodoItem> todoList)
         {
             Console.Clear();
@@ -94,10 +89,8 @@ namespace TodoList
             System.Console.WriteLine("Nota:");
             string nota = Console.ReadLine();
             TodoItem item = new TodoItem(titulo, nota);
-
             todoList.Add(item);
         }
-
         public static void RemoveItem(List<TodoItem> todoList)
         {
             int index = 0;
@@ -111,7 +104,6 @@ namespace TodoList
                 System.Console.WriteLine("Digite o ID ou x para terminar");
                 System.Console.WriteLine("ID:");
                 string id = Console.ReadLine();
-
                 if (id.ToLower() == "x")
                 {
                     break;
@@ -125,14 +117,45 @@ namespace TodoList
                     System.Console.WriteLine("ID Invalido");
                     System.Console.WriteLine("Pressione <enter> para continuar");
                     Console.ReadLine();
-
                 }
                 else
                 {
                     todoList.RemoveAt(index);
                 }
             } while (true);
+        }
+        static void SaveItem(List<TodoItem> lista, string filePath)
+        {
+            List<string> linhas = new List<string>();
+            linhas.Add("title,nota");
+            foreach (TodoItem item in lista)
+            {
+                string titulo = "\"" + item.Titulo + "\"";
+                string nota = "\"" + item.Nota + "\"";
+                linhas.Add(titulo + "," + nota);
+            }
+            string tryAgain = "n";
+            do
+            {
+                try
+                {
+                    File.WriteAllLines(filePath, linhas);
+                    tryAgain = "n";
+                }
+                catch (IOException e)
+                {
+                    System.Console.WriteLine("Errou na gravação do arquivo");
+                    System.Console.WriteLine(e.Message);
+                    do
+                    {
+                        System.Console.WriteLine("deseja tentar novamente(s/n)");
+                        tryAgain = Console.ReadLine().ToLower();
 
+                    } while (tryAgain == "s" || tryAgain == "n");
+                }
+            } while (tryAgain != "n");
         }
     }
+
 }
+
