@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\24055965800\\Documents\\Exercicios\\SENAIzinho\\SENAIzinho.csproj": {}
+    "C:\\Users\\24055965800\\Documents\\Exercicios\\EscolaDeRock\\EscolaDeRock.csproj": {}
   },
   "projects": {
-    "C:\\Users\\24055965800\\Documents\\Exercicios\\SENAIzinho\\SENAIzinho.csproj": {
+    "C:\\Users\\24055965800\\Documents\\Exercicios\\EscolaDeRock\\EscolaDeRock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\24055965800\\Documents\\Exercicios\\SENAIzinho\\SENAIzinho.csproj",
-        "projectName": "SENAIzinho",
-        "projectPath": "C:\\Users\\24055965800\\Documents\\Exercicios\\SENAIzinho\\SENAIzinho.csproj",
+        "projectUniqueName": "C:\\Users\\24055965800\\Documents\\Exercicios\\EscolaDeRock\\EscolaDeRock.csproj",
+        "projectName": "EscolaDeRock",
+        "projectPath": "C:\\Users\\24055965800\\Documents\\Exercicios\\EscolaDeRock\\EscolaDeRock.csproj",
         "packagesPath": "C:\\Users\\24055965800\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\24055965800\\Documents\\Exercicios\\SENAIzinho\\obj\\",
+        "outputPath": "C:\\Users\\24055965800\\Documents\\Exercicios\\EscolaDeRock\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

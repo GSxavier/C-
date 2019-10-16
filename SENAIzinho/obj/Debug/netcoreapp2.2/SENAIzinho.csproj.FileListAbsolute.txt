@@ -1,4 +1,4 @@
-C:\Users\48531730805\Documents\Exercicios\SENAIzinho\obj\Debug\netcoreapp2.2\SENAIzinho.csprojAssemblyReference.cache
-C:\Users\48531730805\Documents\Exercicios\SENAIzinho\obj\Debug\netcoreapp2.2\SENAIzinho.csproj.CoreCompileInputs.cache
-C:\Users\48531730805\Documents\Exercicios\SENAIzinho\obj\Debug\netcoreapp2.2\SENAIzinho.AssemblyInfoInputs.cache
-C:\Users\48531730805\Documents\Exercicios\SENAIzinho\obj\Debug\netcoreapp2.2\SENAIzinho.AssemblyInfo.cs
+C:\Users\24055965800\Documents\Exercicios\SENAIzinho\obj\Debug\netcoreapp2.2\SENAIzinho.csprojAssemblyReference.cache
+C:\Users\24055965800\Documents\Exercicios\SENAIzinho\obj\Debug\netcoreapp2.2\SENAIzinho.csproj.CoreCompileInputs.cache
+C:\Users\24055965800\Documents\Exercicios\SENAIzinho\obj\Debug\netcoreapp2.2\SENAIzinho.AssemblyInfoInputs.cache
+C:\Users\24055965800\Documents\Exercicios\SENAIzinho\obj\Debug\netcoreapp2.2\SENAIzinho.AssemblyInfo.cs
